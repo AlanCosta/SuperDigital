@@ -24,3 +24,16 @@ C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperD
 C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Application\bin\Debug\netcoreapp3.0\SuperDigital.IO.Domain.pdb
 C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Application\bin\Debug\netcoreapp3.0\SuperDigital.IO.Domain.Core.pdb
 C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Application\obj\Debug\netcoreapp3.0\SuperDigital.IO.Application.csproj.CopyComplete
+C:\Users\mazza\Desktop\Alan\teste\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Application\bin\Debug\netcoreapp3.0\SuperDigital.IO.Application.deps.json
+C:\Users\mazza\Desktop\Alan\teste\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Application\bin\Debug\netcoreapp3.0\SuperDigital.IO.Application.dll
+C:\Users\mazza\Desktop\Alan\teste\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Application\bin\Debug\netcoreapp3.0\SuperDigital.IO.Application.pdb
+C:\Users\mazza\Desktop\Alan\teste\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Application\bin\Debug\netcoreapp3.0\SuperDigital.IO.Domain.Core.dll
+C:\Users\mazza\Desktop\Alan\teste\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Application\bin\Debug\netcoreapp3.0\SuperDigital.IO.Domain.dll
+C:\Users\mazza\Desktop\Alan\teste\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Application\bin\Debug\netcoreapp3.0\SuperDigital.IO.Domain.pdb
+C:\Users\mazza\Desktop\Alan\teste\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Application\bin\Debug\netcoreapp3.0\SuperDigital.IO.Domain.Core.pdb
+C:\Users\mazza\Desktop\Alan\teste\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Application\obj\Debug\netcoreapp3.0\SuperDigital.IO.Application.csprojAssemblyReference.cache
+C:\Users\mazza\Desktop\Alan\teste\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Application\obj\Debug\netcoreapp3.0\SuperDigital.IO.Application.AssemblyInfoInputs.cache
+C:\Users\mazza\Desktop\Alan\teste\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Application\obj\Debug\netcoreapp3.0\SuperDigital.IO.Application.AssemblyInfo.cs
+C:\Users\mazza\Desktop\Alan\teste\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Application\obj\Debug\netcoreapp3.0\SuperDigital.IO.Application.csproj.CopyComplete
+C:\Users\mazza\Desktop\Alan\teste\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Application\obj\Debug\netcoreapp3.0\SuperDigital.IO.Application.dll
+C:\Users\mazza\Desktop\Alan\teste\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Application\obj\Debug\netcoreapp3.0\SuperDigital.IO.Application.pdb

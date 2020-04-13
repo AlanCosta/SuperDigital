@@ -9638,11 +9638,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.Api\\SuperDigital.Api.csproj",
+      "projectUniqueName": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.Api\\SuperDigital.Api.csproj",
       "projectName": "SuperDigital.Api",
-      "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.Api\\SuperDigital.Api.csproj",
+      "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.Api\\SuperDigital.Api.csproj",
       "packagesPath": "C:\\Users\\mazza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.Api\\obj\\",
+      "outputPath": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9663,14 +9663,14 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Application\\SuperDigital.IO.Application.csproj": {
-              "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Application\\SuperDigital.IO.Application.csproj"
+            "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Application\\SuperDigital.IO.Application.csproj": {
+              "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Application\\SuperDigital.IO.Application.csproj"
             },
-            "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Infra.CrossCutting.Bus\\SuperDigital.IO.Infra.CrossCutting.Bus.csproj": {
-              "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Infra.CrossCutting.Bus\\SuperDigital.IO.Infra.CrossCutting.Bus.csproj"
+            "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Infra.CrossCutting.Bus\\SuperDigital.IO.Infra.CrossCutting.Bus.csproj": {
+              "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Infra.CrossCutting.Bus\\SuperDigital.IO.Infra.CrossCutting.Bus.csproj"
             },
-            "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Infra.CrossCutting.IoC\\SuperDigital.IO.Infra.CrossCutting.IoC.csproj": {
-              "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Infra.CrossCutting.IoC\\SuperDigital.IO.Infra.CrossCutting.IoC.csproj"
+            "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Infra.CrossCutting.IoC\\SuperDigital.IO.Infra.CrossCutting.IoC.csproj": {
+              "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Infra.CrossCutting.IoC\\SuperDigital.IO.Infra.CrossCutting.IoC.csproj"
             }
           }
         }

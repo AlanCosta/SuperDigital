@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Application\\SuperDigital.IO.Application.csproj": {}
+    "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Application\\SuperDigital.IO.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Application\\SuperDigital.IO.Application.csproj": {
+    "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Application\\SuperDigital.IO.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Application\\SuperDigital.IO.Application.csproj",
+        "projectUniqueName": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Application\\SuperDigital.IO.Application.csproj",
         "projectName": "SuperDigital.IO.Application",
-        "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Application\\SuperDigital.IO.Application.csproj",
+        "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Application\\SuperDigital.IO.Application.csproj",
         "packagesPath": "C:\\Users\\mazza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Application\\obj\\",
+        "outputPath": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain\\SuperDigital.IO.Domain.csproj": {
-                "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain\\SuperDigital.IO.Domain.csproj"
+              "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain\\SuperDigital.IO.Domain.csproj": {
+                "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain\\SuperDigital.IO.Domain.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain.Core\\SuperDigital.IO.Domain.Core.csproj": {
+    "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain.Core\\SuperDigital.IO.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain.Core\\SuperDigital.IO.Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain.Core\\SuperDigital.IO.Domain.Core.csproj",
         "projectName": "SuperDigital.IO.Domain.Core",
-        "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain.Core\\SuperDigital.IO.Domain.Core.csproj",
+        "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain.Core\\SuperDigital.IO.Domain.Core.csproj",
         "packagesPath": "C:\\Users\\mazza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain.Core\\obj\\",
+        "outputPath": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -142,14 +142,14 @@
         }
       }
     },
-    "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain\\SuperDigital.IO.Domain.csproj": {
+    "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain\\SuperDigital.IO.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain\\SuperDigital.IO.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain\\SuperDigital.IO.Domain.csproj",
         "projectName": "SuperDigital.IO.Domain",
-        "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain\\SuperDigital.IO.Domain.csproj",
+        "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain\\SuperDigital.IO.Domain.csproj",
         "packagesPath": "C:\\Users\\mazza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain\\obj\\",
+        "outputPath": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -170,8 +170,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain.Core\\SuperDigital.IO.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain.Core\\SuperDigital.IO.Domain.Core.csproj"
+              "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain.Core\\SuperDigital.IO.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain.Core\\SuperDigital.IO.Domain.Core.csproj"
               }
             }
           }

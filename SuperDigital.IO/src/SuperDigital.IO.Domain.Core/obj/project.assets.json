@@ -145,11 +145,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain.Core\\SuperDigital.IO.Domain.Core.csproj",
+      "projectUniqueName": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain.Core\\SuperDigital.IO.Domain.Core.csproj",
       "projectName": "SuperDigital.IO.Domain.Core",
-      "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain.Core\\SuperDigital.IO.Domain.Core.csproj",
+      "projectPath": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain.Core\\SuperDigital.IO.Domain.Core.csproj",
       "packagesPath": "C:\\Users\\mazza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mazza\\Desktop\\Alan\\SuperDigital\\SuperDigital\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain.Core\\obj\\",
+      "outputPath": "C:\\Users\\mazza\\Desktop\\Alan\\teste\\SuperDigital\\SuperDigital.IO\\src\\SuperDigital.IO.Domain.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

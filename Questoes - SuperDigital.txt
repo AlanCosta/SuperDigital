@@ -1,0 +1,23 @@
+PERGUNTAS:
+
+1) EXPLIQUE COM SUAS PALAVRAS O QUE É DOMAIN DRIVEN DESIGN E SUA IMPORTÂNCIA
+NA ESTRATÉGIA DE DESENVOLVIMENTO DE SOFTWARE.
+
+DDD é um projeto de arquitetura voltada a dominios.
+sua estrategia é deixar dominios ricos e perfomaticos não? trabalhando com interfaces e aplicações e serviços e modulos em suas determinadas camadas
+
+2) EXPLIQUE COM SUAS PALAVRAS O QUE É E COMO FUNCIONA UMA ARQUITETURA BASEADA
+EM MICROSERVICES. EXPLIQUE GANHOS COM ESTE MODELO E DESAFIOS EM SUA
+IMPLEMENTAÇÃO.
+
+Microserviços é uma modelagem de arquitetura. Ela funciona basicamente relacionada a varias API's cada uma com sua responsabilidade, 
+assim não prejudicando um serviço quando o outro cai. Os ganhos é que a manutenção de um unico ponto fica facil e não afeta outras funcionalidades, 
+e os desafios é administrar todos os microserviços com suas capacidades.
+
+3) EXPLIQUE QUAL A DIFERENÇA ENTRE COMUNICAÇÃO SINCRONA E ASSINCRONA E QUAL O
+MELHOR CENÁRIO PARA UTILIZAR UMA OU OUTRA
+
+Comunicação sincrona  recebe a requisição e reposta na hora.
+Assincrona ela pode receber o contato depois de um tempo. ele pode acessar a qualquer momento.
+Se deve usar uma chamada assincrona quando n ha a necessidade de uma resposta imediata?
+E sincrona quando se quer deixar o sistema mais fechado.
