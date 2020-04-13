@@ -1,0 +1,9 @@
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Site\obj\Debug\netcoreapp3.0\SuperDigital.IO.Site.csprojAssemblyReference.cache
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Site\obj\Debug\netcoreapp3.0\staticwebassets\SuperDigital.IO.Site.StaticWebAssets.Manifest.cache
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Site\obj\Debug\netcoreapp3.0\staticwebassets\SuperDigital.IO.Site.StaticWebAssets.xml
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Site\obj\Debug\netcoreapp3.0\SuperDigital.IO.Site.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Site\obj\Debug\netcoreapp3.0\SuperDigital.IO.Site.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Site\obj\Debug\netcoreapp3.0\SuperDigital.IO.Site.RazorAssemblyInfo.cache
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Site\obj\Debug\netcoreapp3.0\SuperDigital.IO.Site.RazorAssemblyInfo.cs
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Site\obj\Debug\netcoreapp3.0\SuperDigital.IO.Site.AssemblyInfoInputs.cache
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Site\obj\Debug\netcoreapp3.0\SuperDigital.IO.Site.AssemblyInfo.cs

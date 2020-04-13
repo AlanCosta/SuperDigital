@@ -1,0 +1,187 @@
+﻿@model SuperDigital.IO.Application.ViewModels.AnuncioViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>AnuncioViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Marca" class="control-label"></label>
+                <select asp-for="Marca" class="form-control"></select>
+                <span asp-validation-for="Marca" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="hidden" asp-for="Marca" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Modelo" class="control-label"></label>
+                <select asp-for="Modelo" class="form-control"></select>
+                <span asp-validation-for="Modelo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="hidden" asp-for="Modelo" class="form-control" />
+            </div>
+            @*<div class="form-group">
+                    <label asp-for="Modelo" class="control-label"></label>
+                    <input asp-for="Modelo" class="form-control" />
+                    <span asp-validation-for="Modelo" class="text-danger"></span>
+                </div>*@
+            <div class="form-group">
+                <label asp-for="Versao" class="control-label"></label>
+                <select asp-for="Versao" class="form-control"></select>
+                <span asp-validation-for="Versao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="hidden" asp-for="Versao" class="form-control" />
+            </div>
+            @*<div class="form-group">
+                    <label asp-for="Versao" class="control-label"></label>
+                    <input asp-for="Versao" class="form-control" />
+                    <span asp-validation-for="Versao" class="text-danger"></span>
+                </div>*@
+            <div class="form-group">
+                <label asp-for="Ano" class="control-label"></label>
+                <input asp-for="Ano" class="form-control" />
+                <span asp-validation-for="Ano" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quilometragem" class="control-label"></label>
+                <input asp-for="Quilometragem" class="form-control" />
+                <span asp-validation-for="Quilometragem" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Observacao" class="control-label"></label>
+                <input asp-for="Observacao" class="form-control" />
+                <span asp-validation-for="Observacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        $.ajax({
+            type: "GET",
+            url: '/Anuncios/ConsultarMarca',
+            data: {},
+            statusCode: {
+                200: function (content) {
+                    var $dropdown = $("#Marca");
+                    $dropdown.find('option').remove();
+                    $dropdown.append($("<option />").val(null).text('Selecione'));
+                    $.each(JSON.parse(content), function () {
+                        $dropdown.append((this.Name == $("input#Marca").val()) ? $("<option name=" + this.Id + "/>").val(this.Name).text(this.Name).attr('selected', true) : $("<option name=" + this.Id + "/>").val(this.Name).text(this.Name));
+                    });
+                    if ($("#Marca").val() !== null) {
+                        debugger;
+                        $.ajax({
+                            type: "POST",
+                            url: '/Anuncios/ConsultarModelo',
+                            data: {
+                                IdMarca: $('#Marca option:selected').attr('name'),
+                            },
+                            statusCode: {
+                                200: function (content) {
+
+                                    var $dropdown = $("#Modelo");
+                                    $dropdown.find('option').remove();
+                                    $dropdown.append($("<option />").val(null).text('Selecione'));
+                                    $.each(JSON.parse(content), function () {
+                                        $dropdown.append((this.Name == $("input#Modelo").val()) ? $("<option name=" + this.Id + "/>").val(this.Name).text(this.Name).attr('selected', true) : $("<option name=" + this.Id + "/>").val(this.Name).text(this.Name));
+                                    });
+                                    if ($("#Modelo").val() !== null) {
+                                        $.ajax({
+                                            type: "POST",
+                                            url: '/Anuncios/ConsultarVersao',
+                                            data: {
+                                                IdModelo: $('#Modelo').val(),
+                                            },
+                                            statusCode: {
+                                                200: function (content) {
+
+                                                    var $dropdown = $("#Versao");
+                                                    $dropdown.find('option').remove();
+                                                    $dropdown.append($("<option />").val(null).text('Selecione'));
+                                                    $.each(JSON.parse(content), function () {
+                                                        $dropdown.append((this.Name == $("input#Versao").val()) ? $("<option name=" + this.Id + "/>").val(this.Name).text(this.Name).attr('selected', true) : $("<option name=" + this.Id + "/>").val(this.Name).text(this.Name));
+                                                    });
+                                                }
+                                            }
+                                        });
+                                    }
+                                }
+                            }
+                        });
+                    }
+                    //$dropdown.prop('selectedIndex', index)
+                }
+            }
+        });
+        $("#Marca").change(function () {
+            if ($("#Marca").val() !== null) {
+                debugger;
+                $.ajax({
+                    type: "POST",
+                    url: '/Anuncios/ConsultarModelo',
+                    data: {
+                        IdMarca: $('#Marca option:selected').attr('name'),
+                    },
+                    statusCode: {
+                        200: function (content) {
+
+                            var $dropdown = $("#Modelo");
+                            $dropdown.find('option').remove();
+                            $dropdown.append($("<option />").val(null).text('Selecione'));
+                            $.each(JSON.parse(content), function () {
+                                $dropdown.append($("<option />").val(this.Name).text(this.Name));
+                            });
+                        }
+                    }
+                });
+            }
+        });
+
+        $("#Modelo").change(function () {
+            if ($("#Modelo").val() !== null) {
+                $.ajax({
+                    type: "POST",
+                    url: '/Anuncios/ConsultarVersao',
+                    data: {
+                        IdModelo: $('#Modelo').val(),
+                    },
+                    statusCode: {
+                        200: function (content) {
+
+                            var $dropdown = $("#Versao");
+                            $dropdown.find('option').remove();
+                            $dropdown.append($("<option />").val(null).text('Selecione'));
+                            $.each(JSON.parse(content), function () {
+                                $dropdown.append($("<option />").val(this.Name).text(this.Name));
+                            });
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+}

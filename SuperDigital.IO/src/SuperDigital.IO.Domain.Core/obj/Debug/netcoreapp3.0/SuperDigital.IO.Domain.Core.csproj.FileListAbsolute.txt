@@ -1,0 +1,14 @@
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\Eventos.IO.Domain.Core\bin\Debug\netcoreapp3.0\SuperDigital.IO.Domain.Core.deps.json
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\Eventos.IO.Domain.Core\bin\Debug\netcoreapp3.0\SuperDigital.IO.Domain.Core.dll
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\Eventos.IO.Domain.Core\bin\Debug\netcoreapp3.0\SuperDigital.IO.Domain.Core.pdb
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\Eventos.IO.Domain.Core\obj\Debug\netcoreapp3.0\SuperDigital.IO.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\Eventos.IO.Domain.Core\obj\Debug\netcoreapp3.0\SuperDigital.IO.Domain.Core.AssemblyInfo.cs
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\Eventos.IO.Domain.Core\obj\Debug\netcoreapp3.0\SuperDigital.IO.Domain.Core.dll
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\Eventos.IO.Domain.Core\obj\Debug\netcoreapp3.0\SuperDigital.IO.Domain.Core.pdb
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Domain.Core\bin\Debug\netcoreapp3.0\SuperDigital.IO.Domain.Core.deps.json
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Domain.Core\bin\Debug\netcoreapp3.0\SuperDigital.IO.Domain.Core.dll
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Domain.Core\bin\Debug\netcoreapp3.0\SuperDigital.IO.Domain.Core.pdb
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Domain.Core\obj\Debug\netcoreapp3.0\SuperDigital.IO.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Domain.Core\obj\Debug\netcoreapp3.0\SuperDigital.IO.Domain.Core.AssemblyInfo.cs
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Domain.Core\obj\Debug\netcoreapp3.0\SuperDigital.IO.Domain.Core.dll
+C:\Users\mazza\Desktop\Alan\SuperDigital\SuperDigital\SuperDigital.IO\src\SuperDigital.IO.Domain.Core\obj\Debug\netcoreapp3.0\SuperDigital.IO.Domain.Core.pdb

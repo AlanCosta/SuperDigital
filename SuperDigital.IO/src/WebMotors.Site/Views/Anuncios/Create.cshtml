@@ -1,0 +1,169 @@
+﻿@model SuperDigital.IO.Application.ViewModels.AnuncioViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>AnuncioViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Marca" class="control-label"></label>
+                <select asp-for="Marca" class="form-control">
+                    @*<option>Selecione</option>
+                    @{
+                        if (ViewBag.Marcas != null)
+                        {
+                            foreach (var item in ViewBag.Marcas)
+                            {
+                                <option value="@item.Name">@item.Name</option>
+                            }
+                        }
+                    }*@
+                </select>
+                <span asp-validation-for="Marca" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Modelo" class="control-label"></label>
+                <select asp-for="Modelo" class="form-control"></select>
+                <span asp-validation-for="Modelo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Versao" class="control-label"></label>
+                <select asp-for="Versao" class="form-control"></select>
+                <span asp-validation-for="Versao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ano" class="control-label"></label>
+                <input type="number" asp-for="Ano" class="form-control" />
+                <span asp-validation-for="Ano" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quilometragem" class="control-label"></label>
+                <input type="number" asp-for="Quilometragem" class="form-control" />
+                <span asp-validation-for="Quilometragem" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Observacao" class="control-label"></label>
+                <textarea asp-for="Observacao" class="form-control"></textarea>
+                <span asp-validation-for="Observacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        $.ajax({
+            type: "GET",
+            url: '/Anuncios/ConsultarMarca',
+            data: {},
+                    statusCode: {
+                        200: function (content) {
+                            var $dropdown = $("#Marca");
+                            $dropdown.find('option').remove();
+                            $dropdown.append($("<option />").val(null).text('Selecione'));
+                            $.each(JSON.parse(content), function () {
+                                $dropdown.append($("<option name="+ this.Id +"/>").val(this.Name).text(this.Name));
+                            });
+                        }
+                    }
+                });
+        $("#Marca").change(function () {
+            if ($("#Marca").val() !== null) {
+                debugger;
+                $.ajax({
+                    type: "POST",
+                    url: '/Anuncios/ConsultarModelo',
+                    data: {
+                        IdMarca: $('#Marca option:selected').attr('name'),
+                    },
+                    statusCode: {
+                        200: function (content) {
+
+                            var $dropdown = $("#Modelo");
+                            $dropdown.find('option').remove();
+                            $dropdown.append($("<option />").val(null).text('Selecione'));
+                            $.each(JSON.parse(content), function () {
+                                $dropdown.append($("<option />").val(this.Name).text(this.Name));
+                            });
+                        }
+                    }
+                });
+            }
+        });
+
+        $("#Modelo").change(function () {
+            if ($("#Modelo").val() !== null) {
+                $.ajax({
+                    type: "POST",
+                    url: '/Anuncios/ConsultarVersao',
+                    data: {
+                        IdModelo: $('#Modelo').val(),
+                    },
+                    statusCode: {
+                        200: function (content) {
+
+                            var $dropdown = $("#Versao");
+                            $dropdown.find('option').remove();
+                            $dropdown.append($("<option />").val(null).text('Selecione'));
+                            $.each(JSON.parse(content), function () {
+                                $dropdown.append($("<option />").val(this.Name).text(this.Name));
+                            });
+                        }
+                    }
+                });
+            }
+        });
+
+        $("#Versao").change(function () {
+            if ($("#Versao").val() !== null) {
+                var count = 0;
+                for (i = 0; i < 4; i++) {
+                    if (count == 0) {
+                        $.ajax({
+                            type: "POST",
+                            url: '/Anuncios/ConsultarDados',
+                            data: {
+                                page: i,
+                            },
+                            statusCode: {
+                                200: function (content) {
+
+                                    //var $dropdown = $("#Modelo");
+                                    //$dropdown.find('option').remove();
+                                    //debugger;
+                                    $.each(JSON.parse(content), function () {
+                                        debugger;
+                                        if (this.Make == $("#Marca option:selected").text() && this.Model == $("#Modelo option:selected").text() && this.Version == $("#Versao option:selected").text()) {
+                                            $("#Ano").val(this.YearFab);
+                                            $("#Quilometragem").val(this.YearFab);
+                                            $("#Observacao").val("Cor: " + this.Color + " - Preco: " + this.Price + " - Imagem: " + this.Image);
+                                            count++;
+                                        }
+                                    });
+                                }
+                            }
+                        });
+                    }
+                    else {
+                        break;
+                    }
+                }
+            }
+        });
+    </script>
+}

@@ -1,0 +1,23 @@
+Aplicacao feita toda em .net core 3.0
+
+1 - Mudar String connection do arquivo appsettings.json do projeto 
+	para uma existente de voces
+2 - Rodar Update-Database do Migrations caso nao tenha o banco ainda.
+3 - rodar a aplicacao normalmente e consumir as API.
+
+
+Duas Rotas de POst:
+Uma de inserção de Conta.
+{
+  "numeroConta": 0,
+  "valorTotalConta": 0.0
+}
+
+Uma de Lancamentos.
+{
+  "numeroContaOrigem": 0,
+  "numeroContaDestino": 0,
+  "valor": 0.0
+}
+
+
